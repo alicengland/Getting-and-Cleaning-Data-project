@@ -64,7 +64,7 @@ This script achieves the objectives of the assignment. The script produces a dat
 5. Steps 2-4 are repeated for the test data set using the provided files corresponding to the test data set. The resulting data table is 2947 rows by 68 columns.
 6. Finally the training and test data sets are combined (training on top, test on the bottom) to create the final merged data set that contains 10299 rows and 68 columns.
 
-The second objective of the assignment is to create a tidy data set with the average of each variable for each activity and each subject. This is accomplished in the last portion of the script by grouping the merged data set by subject and activity, then summarizing the mean of each variable (column).
+The second objective of the assignment is to create a tidy data set with the average of each variable for each activity and each subject. This is accomplished in the last portion of the script by grouping the merged data set by subject and activity, then summarizing the mean of each variable (column). This tidy data set contains 180 rows (subjects from 1-30, each with activities 1-6), and 68 columns (subject and activity columns, 66 feature columns containing the mean or std variables.
 
 #### Notes:
 Please see the provided code book (CodeBook.md) that describes the variables in the merged data set and the tidy data set.
